@@ -52,8 +52,6 @@ fun BottomBar(navController: NavHostController){
         )
     }
 
-    val context = LocalContext.current
-
     val screens = listOf(
         homeBottomElement,
         profileBottomElement
